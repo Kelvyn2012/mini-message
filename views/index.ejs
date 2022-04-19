@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MINI-CHAT</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+   
+<% for(var i = 0; i<userText.length; i++){%>
+  <p><%= userText[i].user %></p>
+  <p><%= userText[i].text %></p>
+ 
+  <p><%= userText[i].added %></p>
+<%}%>
+<a href="/new">CHAT</a>
+    
+  </body>
+</html>
